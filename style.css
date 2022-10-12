@@ -1,0 +1,463 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    margin: 0.7em;
+}
+.logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 0.7em;
+}
+select{
+    background: none;
+    border: none;
+    margin-left: -0.7em;
+}
+.sing{
+    text-align: center;
+}
+.login{
+    padding: 2px;
+    font-weight: 600;
+    background: none;
+    border: 1px solid black;
+    margin: 0.3em;
+}
+.singup{
+    padding: 0.3em;
+    font-weight: 600;
+    background: black;
+    border: none;
+    margin: 1em;
+}
+.singup a{
+    color:white;
+}
+.firstSection{
+    background-color: black;
+    width: 90%;
+    padding: 1em;
+    margin: auto;
+}
+h1.title1{
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 1em;
+    width: 100%;
+}
+p.introduction{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-top: 1em;
+}
+.intro{
+    margin-bottom: 1.5em;
+}
+.search{
+    display: block;
+    text-align: center;
+}
+.searchOptions{
+    margin-left: -2em;
+}
+.searchBar{
+    width: 15em;
+    padding: 0 1.5em;
+    height: 2em;
+}
+.osm-icon{
+    position: absolute;
+    padding: 0.4em;
+}
+.start{
+    display:block ;
+    margin: auto;
+    margin-top: 1em;
+    width: 10em;
+    padding: 0.4em;
+    border: none;
+    border-radius: 0.2em;
+    background-image: linear-gradient(to right,rgb(255, 119, 0) ,rgb(191, 4, 125));
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    -ms-border-radius: 0.2em;
+    -o-border-radius: 0.2em;
+}
+.start a{
+    color: white;
+}
+
+.illus{
+    width: 100%;
+    height: 8.5em;
+    margin-top: 1em;
+}
+.hero{
+    width: 50%;
+    float: right;
+    margin-bottom: 2em;
+    display: none;
+}
+
+/* developer branch */
+.companies img{
+    height:20% ;
+    width: calc(90%/3);
+    padding: 2%;
+}
+.companies{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 1px lightgoldenrodyellow;
+}
+.imagesContainer img{
+    height: 100%; 
+    width: 70% ;
+    margin: 0 auto;
+    display: block;
+    padding: 1%;
+    border-radius: 0.5em ;
+    box-shadow: 0px 2px 2px rgba(187, 237, 238, 0.883);
+}
+.middleSection{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    min-height: 60% ;
+}
+.middleSection div{
+    box-shadow: 0px 2px 2px  lightgray;
+    text-align: center;
+ 
+}
+article h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#btn {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(221,96,7,1) 1%, rgba(131,58,180,1) 90%);
+    color: white;
+    font-weight: bold;
+    margin: 1% auto ;
+    display: block;
+    padding: 1%;
+    border-radius: 5px;
+}
+/* Mjid Part : Mobile First  (less then 600px): */
+section.sec {
+  background-color: black;
+  border: 1px solid black;
+  margin: 0 5%;
+}
+.small-container {
+  width: 20rem;
+  margin: auto;
+}
+.signup-img {
+  width: 90%;
+}
+h1.why {
+  width: 120%;
+  margin: 0.9rem auto;
+  color: white;
+}
+.func {
+  display: flex;
+}
+.func img {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.1rem;
+}
+.func p {
+  width: 14rem;
+  font-size: medium;
+  margin-left: 0.5rem;
+  margin-top: 0rem;
+  color: white;
+}
+#expo {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 174, 0),
+    rgb(179, 0, 255)
+  );
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  border: 2px solid black;
+  width: 9rem;
+  height: 30px;
+  margin: 7px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+}
+.box a {
+  font-size: small;
+  text-decoration: none;
+  color: black;
+  margin-top: 0.3rem;
+}
+.box img {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.3rem;
+}
+.flexx {
+    margin-top: 1rem;
+}
+.flexx .footerItems {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.footerItems img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.footerItems div {
+    width: 24%;
+}
+/*  Mohamed */
+footer{
+  color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    width: 98%;
+    margin: auto;
+    background-color: black;
+    padding: 1em;
+}
+.footer-icons{
+    text-align: center;
+    margin: 0.5em auto;
+}
+.lists-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+   
+}
+.lists-container div{
+    font-size: 0.7em;
+    width: 40%;
+    color: white;
+    list-style: none;
+   
+
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .left-part i:hover{    
+  color: red;
+
+}
+footer a:hover{
+    color: red;
+}
+
+@media screen and (min-width:700px){
+    /* (ossama's part) styling  */
+    header{
+        display: flex;
+        margin: 0 5%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        width: 73%;
+    }
+    .firstSection{
+        display: flex;
+        margin-bottom: 3em;
+    }
+    .os-intro{
+        width: 50%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .illus{
+        width: 30em;
+    }
+
+    /* nadir's style */
+    .companies img{
+        height:20% ;
+        width: calc(90%/4);
+        margin-left: 2%;
+    }
+    .companies{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .imagesContainer img{
+      height: 100%;
+      width: 100% ;
+      border-radius: 0.5em ;
+      padding: 0 2%;
+    }
+    .middleContainer> div:nth-child(2){
+      font-size: 0.9em;
+      max-width: 50%;
+    }
+    .middleContainer{
+      display: flex;
+    }
+    .middleSection{
+        display: flex;
+    }
+    /* mjid's style */
+  .signup-img {
+    width: 90%;
+    margin-left: 14rem;
+    margin-top: -20rem;
+  }
+  h1.why {
+    width: 150%;
+    margin-left: -10rem;
+  }
+  .func {
+    display: flex;
+    margin-left: -10rem;
+  }
+  .func p {
+    width: 20rem;
+    font-size: large;
+  }
+  .container {
+    display: flex;
+    margin-left: -15rem;
+  }
+  /* Mohamed Style*/
+      .lists-container div{
+          width: 20%;
+      }
+      footer {
+          display: flex;
+          justify-content: space-between;
+      }
+      .left-part{
+          width: 30%;
+      }
+      .lists-container{
+          width: 60%;
+      }
+
+}
+
+@media screen and (min-width:980px){
+    /* (ossama's part) styling  */
+    header{
+        display: flex;
+        margin: 0 5%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        width: 60%;
+    }
+    .firstSection{
+        display: flex;
+        margin-bottom: 3em;
+    }
+    .os-intro{
+        width: 50%;
+    }
+    .illus{
+        width: 40%;
+    }
+    .hero{
+        width: 80%;
+        margin:  -3em;
+    }
+
+    .companies img{
+        height: 15%;
+        width: calc(90%/6);
+        padding-right: 2%;
+    }
+    .companies{
+        display: flex;
+        flex-wrap: nowrap;
+        box-shadow: none;
+    }
+    .middleContainer> div:nth-child(2){
+      font-size: 1.2em;
+      max-width: 50%;
+    }
+    .middleSection div{
+      box-shadow: 0px 2px 2px  lightgray;
+      text-align: start;
+   
+  }
+  /* mjid's style */
+  section.sec {
+    padding-left: 6rem;
+  }
+  .signup-img {
+    width: 100%;
+    margin-left: 16rem;
+    margin-top: -20rem;
+  }
+  h1.why {
+    width: 150%;
+    margin-left: -21rem;
+  }
+  .func {
+    display: flex;
+    margin-left: -21rem;
+  }
+  .func p {
+    width: 20rem;
+    font-size: large;
+  }
+  .container {
+    display: flex;
+    margin-left: -32rem;
+  }
+}
